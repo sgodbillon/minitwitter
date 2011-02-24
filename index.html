@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<title>Home</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" media="screen" href="/public/stylesheets/main.css">
+		<link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
+		<script src="/public/javascripts/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/javascripts/zentweet-client.js" type="text/javascript" charset="utf-8"></script>
+	</head> 
+	<body>
+		<header>
+			<a href="/">Zentweet</a>
+			<form id="search" action="#" method="post">
+				<input type="text" placeholder="search" name="search" />
+			</form>
+		</header>
+		<article id="new-tweet">
+			<form action="#" method="post">
+				<div>
+					<label>What's happening ?</label>
+					<textarea type="text" name="message" id="message"></textarea>
+				</div>
+				<div>
+					<input type="submit" />
+				</div>
+			</form>
+		</article>
+		<article id="tweets">
+			<ul>
+			</ul>
+		</article>
+	</body>
+</html>

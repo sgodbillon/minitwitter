@@ -1,0 +1,69 @@
+body {
+	background-color: white;
+	margin: 1% 20%;
+}
+header, article {
+	background-color: rgb(216, 235, 239);
+}
+header {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(187, 65, 135)), to(rgb(170, 19, 107)));
+	border-radius: 6px;
+	height: 60px;
+	position: relative;
+}
+header a {
+	background: url(/public/images/zengularity-logo.png) 1% 50% no-repeat;
+	color: white;
+	display: block;
+	height: 100%;
+	text-indent: -99em;
+}
+header #search {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+#new-tweet {
+	margin: 20px 0;
+	border-width: 1px 0;
+	border-style: dashed;
+	border-color: #BBBBBB;
+	/*background: rgb(226, 245, 249);*/
+	
+}
+#new-tweet form {
+	width: 90%;
+	display: block;
+	padding: 2% 5%;
+	margin: 0;
+	//background: url(/public/images/background-title.jpg) no-repeat;
+	border-radius: 6px;
+}
+textarea {
+	display: block;
+	width: 100%;
+}
+
+#tweets ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#tweets li {
+	padding: 1% 2% 0 2%;
+	height: 40px;
+	border-bottom: 1px dashed #AAAAAA;
+	margin-bottom: 10px;
+	margin: 0;
+}
+#tweets li:first-child {
+	border-top: 1px dashed #AAAAAA;
+}
+#tweets li .user {
+	padding: 0 10px;
+}
+#tweets li .picture {
+	float: left;
+	margin-right: 15px;
+	max-height: 30px;
+}
